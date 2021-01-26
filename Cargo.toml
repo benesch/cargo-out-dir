@@ -1,0 +1,11 @@
+[package]
+name = "cargo-out-dir"
+description = "Displays Cargo's build script out directory."
+repository = "https://github.com/benesch/cargo-out-dir.git"
+version = "0.1.0"
+authors = ["Nikhil Benesch <nikhil.benesch@gmail.com>"]
+edition = "2018"
+license = "Apache-2.0"
+
+[dependencies]
+cargo_metadata = "0.12.3"
